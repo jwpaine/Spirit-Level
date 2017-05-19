@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="marketplace.spiritlevel2.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark">
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/buttonRate"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/buttonRate"
+            android:layout_marginTop="196dp"
+
+            android:text="Level"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/buttonRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonStart"
+            android:layout_centerHorizontal="true"
+
+            android:text="Rate" />
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
